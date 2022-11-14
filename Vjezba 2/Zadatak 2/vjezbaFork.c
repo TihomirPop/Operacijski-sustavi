@@ -18,7 +18,7 @@ int main(int argc, char *argv[]){
 
     brojDjece = atoi(argv[1]);
     if(brojDjece > MAX_BROJ_DJECE || brojDjece < 1){
-        printf("Broj djece mora biti izmedu 1 i 100000\n");
+        printf("Broj djece mora biti izmedu 1 i %d\n", MAX_BROJ_DJECE);
         exit(EXIT_FAILURE);
     }
 
