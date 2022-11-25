@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tihomir/Documents/Operacijski-sustavi/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+INCLUDE_VERMAGIC	Vjezba-3/Zadatak-1/mojmodul.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+MAX_BROJ_DJECE	Vjezba 2/Zadatak 2/vjezbaFork.c	/^#define MAX_BROJ_DJECE /;"	d	file:
+MAX_BUFFER_SIZE	Vjezba 1/vjezba1.c	/^#define MAX_BUFFER_SIZE /;"	d	file:
+MAX_BUFFER_SIZE	Vjezba 1/vjezba1sys.c	/^#define MAX_BUFFER_SIZE /;"	d	file:
+MAX_FILE_SIZE	Vjezba 1/mkrndfl.c	/^#define MAX_FILE_SIZE /;"	d	file:
+____versions	Vjezba-3/Zadatak-1/mojmodul.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("__versions")	file:
+all	Vjezba-3/Zadatak-1/Makefile	/^all:$/;"	t
+clean	Vjezba-3/Zadatak-1/Makefile	/^clean:$/;"	t
+main	Vjezba 1/mkrndfl.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	Vjezba 1/vjezba1.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	Vjezba 1/vjezba1sys.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+main	Vjezba 2/Zadatak 1/vjezbaRandom.c	/^main(){$/;"	f
+main	Vjezba 2/Zadatak 2/vjezbaFork.c	/^int main(int argc, char *argv[]){$/;"	f	typeref:typename:int
+polje	Vjezba 2/Zadatak 1/vjezbaRandom.c	/^signed char polje[100000];$/;"	v	typeref:typename:signed char[100000]
+simple_exit	Vjezba-3/Zadatak-1/mojmodul.c	/^void simple_exit(void){$/;"	f	typeref:typename:void
+simple_init	Vjezba-3/Zadatak-1/mojmodul.c	/^int simple_init(void){$/;"	f	typeref:typename:int

@@ -3,9 +3,18 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/src/linux-headers-5.19.0-23/include/**",
+                "/usr/src/linux-headers-5.19.0-23/arch/x86/include/**",
+                "/usr/src/linux-headers-5.19.0-23-generic/include/**",
+                "/usr/src/linux-headers-5.19.0-23-generic/arch/x86/include/**"
             ],
-            "defines": [],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__"
+            ],
             "compilerPath": "/usr/bin/cpp",
             "cStandard": "gnu17",
             "cppStandard": "c++17",

@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "time.h": "c",
-        "stdlib.h": "c"
-    }
+        "stdlib.h": "c",
+        "module.h": "c",
+        "kernel.h": "c",
+        "random": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

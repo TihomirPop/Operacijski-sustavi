@@ -1,0 +1,1 @@
+cmd_/home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-1/mojmodul.mod := printf '%s\n'   mojmodul.o | awk '!x[$$0]++ { print("/home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-1/"$$0) }' > /home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-1/mojmodul.mod
