@@ -1,0 +1,1 @@
+cmd_/home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-2/modules.order := {   echo /home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-2/sviprocesi.ko; :; } | awk '!x[$$0]++' - > /home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-2/modules.order

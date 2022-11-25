@@ -1,0 +1,1 @@
+cmd_/home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-2/sviprocesi.mod := printf '%s\n'   sviprocesi.o | awk '!x[$$0]++ { print("/home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-2/"$$0) }' > /home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-2/sviprocesi.mod

@@ -1,0 +1,1 @@
+/home/tihomir/Documents/Operacijski-sustavi/Vjezba-3/Zadatak-2/sviprocesi.o
