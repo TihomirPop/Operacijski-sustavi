@@ -14,7 +14,7 @@ int modulInit(void){
     printk("Svi procesi su:\n");
 
     for_each_process(proces){
-        printk("naziv = %-20spid = %-10dparentNaziv = %-20sppid = %d", proces->comm, proces->pid, proces->parent->comm, proces->parent->pid);
+        printk("naziv = %-20spid = %-10dparentNaziv = %-20sppid = %-10d state = 0x%08X", proces->comm, proces->pid, proces->parent->comm, proces->parent->pid, proces->__state);
     }
 
 	return 0;
