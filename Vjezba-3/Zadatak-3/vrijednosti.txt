@@ -1,0 +1,10 @@
+naziv = sudo                pid = 20530     parentNaziv = sudo                ppid = 20524      state = 0x00000001
+naziv = sudo                pid = 20524     parentNaziv = bash                ppid = 20507      state = 0x00000001
+naziv = bash                pid = 20507     parentNaziv = gnome-terminal-     ppid = 14270      state = 0x00000001
+naziv = gnome-terminal-     pid = 14270     parentNaziv = systemd             ppid = 1887       state = 0x00000001
+naziv = systemd             pid = 1887      parentNaziv = systemd             ppid = 1          state = 0x00000001
+naziv = systemd             pid = 1         parentNaziv = swapper/0           ppid = 0          state = 0x00000001
+naziv = chrome              pid = 5337      parentNaziv = chrome              ppid = 5282       state = 0x00000001
+naziv = chrome              pid = 5349      parentNaziv = chrome              ppid = 5256       state = 0x00000001
+naziv = chrome              pid = 5362      parentNaziv = chrome              ppid = 5256       state = 0x00000001
+naziv = chrome              pid = 5383      parentNaziv = chrome              ppid = 5256       state = 0x00000001

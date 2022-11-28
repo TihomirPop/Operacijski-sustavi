@@ -1,0 +1,10 @@
+naziv = systemd             pid = 1
+naziv = kthreadd            pid = 2
+naziv = rcu_gp              pid = 3
+naziv = rcu_par_gp          pid = 4
+naziv = netns               pid = 5
+naziv = kworker/0:0H        pid = 7
+naziv = mm_percpu_wq        pid = 9
+naziv = rcu_tasks_kthre     pid = 10
+naziv = rcu_tasks_rude_     pid = 11
+naziv = rcu_tasks_trace     pid = 12
