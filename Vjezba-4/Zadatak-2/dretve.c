@@ -6,7 +6,7 @@
 
 int zbroj;
 
-void *povecajZbroj(void *p){
+void *povecajZbroj(){
     zbroj++;
     pthread_exit(NULL);
 }
@@ -28,17 +28,15 @@ int main (int argc, char *argv[]){
 
     opisnik = (pthread_t*)malloc(sizeof(pthread_t) * brojDretvi);
 
-    for(int i = 0; i < brojDretvi; i++){
-        if (pthread_create(&opisnik[i], NULL, povecajZbroj, NULL)){
+    for(int i = 0; i < brojDretvi; i++)
+        if (pthread_create(&opisnik[i], NULL, povecajZbroj, NULL))
             printf("Greska u pthread_create()!\n");
-            exit(EXIT_FAILURE);
-        }
-    }
 
     for(int i = 0; i < brojDretvi; i++)
-        pthread_join(opisnik[i], NULL);
+        if(pthread_join(opisnik[i], NULL))
+            printf("Greska u pthread_join()!\n");
     
-    printf("globalna varijabla zbroj: %d\n", zbroj);
+    printf("%d", zbroj);
 
     free(opisnik);
 
