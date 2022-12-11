@@ -57,7 +57,7 @@ int main(int argc, char *argv[]){
     for(int i = 0; i < 100; i++)
         if(pthread_join(opisnik[i], NULL))
             printf("Greska u pthread_join()!\n");
-    
+
     for(int i = 0; i < 100; i++)
         if(avion[i])
             brojZauzetihMjesta++;
