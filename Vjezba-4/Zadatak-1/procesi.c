@@ -11,8 +11,6 @@ int zbroj;
 int main(int argc, char *argv[]){
     int brojDjece;
 
-    setbuf(stdout, NULL);
-
     if(argc != 2){
         printf("Krivi broj parametara. Sintaksa: brojDjece\n");
         exit(EXIT_FAILURE);
