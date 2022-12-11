@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<fcntl.h>
 #include<unistd.h>
 #include<sys/wait.h>
 
@@ -22,10 +21,8 @@ int main(int argc, char *argv[]){
         exit(EXIT_FAILURE);
     }
 
-    pid_t PID;
-
     for(int i = 0; i < brojDjece; i++){
-        switch (PID = fork())
+        switch (fork())
         {
         case -1:
             exit(EXIT_FAILURE);
@@ -33,11 +30,11 @@ int main(int argc, char *argv[]){
         case 0:
             zbroj++;
             exit(EXIT_SUCCESS);
-
-        default:
-            wait(NULL);
         }
     }
+
+    for(int i = 0; i < brojDjece; i++)
+        wait(NULL);
 
     printf("globalna varijabla zbroj: %d\n", zbroj);
 
