@@ -29,8 +29,10 @@ int main (int argc, char *argv[]){
     opisnik = (pthread_t*)malloc(sizeof(pthread_t) * brojDretvi);
 
     for(int i = 0; i < brojDretvi; i++)
-        if (pthread_create(&opisnik[i], NULL, povecajZbroj, NULL))
-            printf("Greska u pthread_create()!\n");
+        if (pthread_create(&opisnik[i], NULL, povecajZbroj, NULL)){
+            printf("Greska u pthread_create() na indexu %d!\n", i);
+            exit(EXIT_FAILURE);
+        }
 
     for(int i = 0; i < brojDretvi; i++)
         if(pthread_join(opisnik[i], NULL))

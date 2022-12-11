@@ -25,6 +25,7 @@ int main(int argc, char *argv[]){
         switch (fork())
         {
         case -1:
+            printf("Greska u fork() na indexu %d!\n", i);
             exit(EXIT_FAILURE);
 
         case 0:
