@@ -38,7 +38,7 @@ int main (int argc, char *argv[]){
         if(pthread_join(opisnik[i], NULL))
             printf("Greska u pthread_join()!\n");
     
-    printf("%d", zbroj);
+    printf("globalna varijabla zbroj: %d\n", zbroj);
 
     free(opisnik);
 
