@@ -36,6 +36,12 @@ void* aplikacija(){
     pthread_exit(NULL);
 }
 
+void ispisiRed(int pocetak){
+    for(int i = pocetak; i < pocetak + 25; i++)
+        printf("%s", avion[i] ? "\033[0;31mZ " : "\033[0;32mS ");
+    printf("\033[0m");
+}
+
 
 int main(int argc, char *argv[]){
     char indexKasnijegSpajanja, brojZauzetihMjesta = 0;;
@@ -65,21 +71,13 @@ int main(int argc, char *argv[]){
     printf("zauzeto: %d\nslobodno: %d\n", brojZauzetihMjesta, 100 - brojZauzetihMjesta);
 
     printf("\n                             .!!777.\n                             ^&7^~JP!\n                              7B.  :Y5^\n                               YG    ~PJ.\n                                PY    .?P!\n                                .B7     :55^\n                                 !#:      !PJ.\n                                  5P       .?P!.\n                                  .#!        :55^.\n      .~7??!.                      !#:         ~5J:\n      ~&7^~YG!                      5P           7P?.\n       5P   ~G5:                    .B7           .JP!\n       .#7   .JB!                    ~#^            ^55^\n        7&:    ~B5.                   YG.             ~5Y:\n         PP     .JB7                   B?               !P?.\n         .#?      ^PP^ ................5#.               .75?......\n          !&^       ?GYYYYYYJJJJJJJJJJJ?7.                 .75JJJJJJJJJJJJ?J??JJJJJ??7~.\n           YB.          ");
-    for(int i = 0; i < 25; i++)
-        printf("%s", avion[i] ? "\033[0;31mZ " : "\033[0;32mS ");
-    printf("\033[0m");
+    ispisiRed(0);
     printf("           ~7J?.\n           .GY          ");
-    for(int i = 25; i < 50; i++)
-        printf("%s", avion[i] ? "\033[0;31mZ " : "\033[0;32mS ");
-    printf("\033[0m");
+    ispisiRed(25);
     printf("              ~G^\n            PG          ");
-    for(int i = 50; i < 75; i++)
-        printf("%s", avion[i] ? "\033[0;31mZ " : "\033[0;32mS ");
-    printf("\033[0m");
+    ispisiRed(50);
     printf("             .7G^\n           ^&~          ");
-    for(int i = 75; i < 100; i++)
-        printf("%s", avion[i] ? "\033[0;31mZ " : "\033[0;32mS ");
-    printf("\033[0m");
+    ispisiRed(75);
     printf("         ~7Y5?:\n          .BY       !PYYJ????????????????~                  7J????????JJJJJJJJYJJJJJ?!:\n          J#.     :5P^.:^^~~~~~~~~~~~~^~#?                ^55^::::\n         ^&~     !B?                   ?P               .JP!\n         G5    :YG^                   ~#:              ~GJ.\n        ?#:   7BJ.                   .B!             :YP^\n       ^&! .~YP^                     55             !G?\n       BB!?YJ^                      7B.           :Y5^\n       !?7~.                       :#~           7G?\n                                   PY          :5P^\n                                  JB.         7G?\n                                 ~&~        :PP^\n                                 GJ        7B?\n                                JB.      ~P5:\n                               ^#~     :YG~\n                              .P7    .JG?.\n                             .5Y ..^JGJ.\n                             .YY????!:\n                               ..\n\n\n");   
 
     return 0;
