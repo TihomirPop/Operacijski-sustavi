@@ -2,8 +2,10 @@
 #include<stdlib.h>
 #include<time.h>
 #include <unistd.h>
+#include <pthread.h>
 
 char avion[100];
+static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 int getSlobodnaMjesta(char* slobodnaMjesta){
     int brojSlobodnihMjesta = 0;
@@ -26,12 +28,14 @@ void* aplikacija(){
     srand((unsigned)time(NULL));
     sleep(rand() % 5 + 1);
 
+    pthread_mutex_lock(&mutex);
     brojSlobodnihMjesta = getSlobodnaMjesta(slobondaMjesta);
     do{
         odabir = slobondaMjesta[rand() % brojSlobodnihMjesta];
     }while(rand() % 2);
     sleep(rand() % 2 + 1);
     avion[odabir] = 1;
+    pthread_mutex_unlock(&mutex);
 
     pthread_exit(NULL);
 }
