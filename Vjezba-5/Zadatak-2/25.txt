@@ -1,0 +1,196 @@
+Davor sada spava
+Tin sada spava
+Ivica sada spava
+Ivan sada spava
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada spava
+Ivan sada slusa sviranje klavira
+Ivica sada igra tenis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Tin sada spava
+Davor sada spava
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Tin sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Davor sada spava
+Ivica sada igra tenis
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada slusa sviranje klavira
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Davor sada spava
+Tin sada spava
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Davor sada spava
+Tin sada spava
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Davor sada spava
+Tin sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada spava
+Tin sada programira
+Tin sada ide jesti
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada vozi auto na servis
+Tin sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Tin sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada igra tenis
+Davor sada spava
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Davor sada spava
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada igra tenis
+Ivica sada ide jesti
+Ivica sada programira
+
+Ivan:
+pojedeno = 6
+odbijeno = 1
+prazno = 4
+
+Tin:
+pojedeno = 4
+odbijeno = 0
+prazno = 6
+
+Davor:
+pojedeno = 7
+odbijeno = 2
+prazno = 2
+
+Ivica:
+pojedeno = 8
+odbijeno = 1
+prazno = 3

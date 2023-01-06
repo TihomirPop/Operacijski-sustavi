@@ -34,6 +34,7 @@ void kuhanje();
 void odmaranje();
 void jeloNaStol();
 void jedenje(const char* ime, JeloStat* jeloStat);
+void printJeloStat(const char* ime, JeloStat* jeloStat);
 
 int main(int argc, char *argv[]){
     pthread_t opisnik[5];
@@ -84,6 +85,8 @@ void* tin(){
         jedenje(ime, &jeloStat);
         servis(ime);
     }
+
+    printJeloStat(ime, &jeloStat);
 }
 
 void* davor(){
@@ -98,6 +101,8 @@ void* davor(){
         jedenje(ime, &jeloStat);
         televizija(ime);
     }
+
+    printJeloStat(ime, &jeloStat);
 }
 
 void* ivica(){
@@ -112,6 +117,8 @@ void* ivica(){
         jedenje(ime, &jeloStat);
         programiranje(ime);
     }
+
+    printJeloStat(ime, &jeloStat);
 }
 
 void* ivan(){
@@ -126,6 +133,8 @@ void* ivan(){
         jedenje(ime, &jeloStat);
         programiranje(ime);
     }
+
+    printJeloStat(ime, &jeloStat);
 }
 
 void* kuharica(){
@@ -267,4 +276,10 @@ void jedenje(const char* ime, JeloStat* jeloStat){
     pthread_mutex_unlock(&mutex);
     jeloStat->prazno++;
     return;
+}
+
+void printJeloStat(const char* ime, JeloStat* jeloStat){
+    sleep(15);
+    printf("\n%s:\npojedeno = %d\nodbijeno = %d\nprazno = %d\n", ime, jeloStat->pojedeno, jeloStat->odbijeno, jeloStat->prazno);
+    fflush(stdout);
 }

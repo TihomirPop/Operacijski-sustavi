@@ -1,0 +1,88 @@
+Tin sada spava
+Ivica sada spava
+Ivan sada spava
+Davor sada spava
+Ivica sada igra tenis
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada spava
+Davor sada spava
+Ivica sada igra tenis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada spava
+Ivica sada igra tenis
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Davor sada spava
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivica sada igra tenis
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivan sada slusa sviranje klavira
+Ivica sada igra tenis
+Ivan sada ide jesti
+Ivan sada programira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivica sada ide jesti
+Ivica sada programira
+
+Davor:
+pojedeno = 3
+odbijeno = 1
+prazno = 0
+
+Ivan:
+pojedeno = 2
+odbijeno = 0
+prazno = 2
+
+Ivica:
+pojedeno = 2
+odbijeno = 1
+prazno = 2
+
+Tin:
+pojedeno = 3
+odbijeno = 0
+prazno = 1

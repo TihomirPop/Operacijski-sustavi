@@ -1,0 +1,68 @@
+Davor sada spava
+Tin sada spava
+Ivan sada spava
+Ivica sada spava
+Ivica sada igra tenis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada spava
+Ivica sada igra tenis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada spava
+Tin sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Ivica sada igra tenis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada ide jesti
+Ivica sada programira
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivan sada ide jesti
+Ivan sada programira
+
+Ivica:
+pojedeno = 1
+odbijeno = 0
+prazno = 2
+
+Davor:
+pojedeno = 3
+odbijeno = 0
+prazno = 0
+
+Tin:
+pojedeno = 1
+odbijeno = 0
+prazno = 2
+
+Ivan:
+pojedeno = 0
+odbijeno = 1
+prazno = 2

@@ -1,0 +1,116 @@
+Davor sada spava
+Tin sada spava
+Ivica sada spava
+Ivan sada spava
+Ivan sada slusa sviranje klavira
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Ivica sada igra tenis
+Davor sada spava
+Tin sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivan sada slusa sviranje klavira
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada spava
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Ivica sada igra tenis
+Tin sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada slusa sviranje klavira
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada igra tenis
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Tin sada spava
+Davor sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada slusa sviranje klavira
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivica sada igra tenis
+Davor sada spava
+Tin sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada slusa sviranje klavira
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Ivan sada ide jesti
+Ivan sada programira
+Ivan sada spava
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivica sada igra tenis
+Davor sada spava
+Tin sada spava
+Ivica sada ide jesti
+Ivica sada programira
+Ivica sada spava
+Ivan sada slusa sviranje klavira
+Davor sada programira
+Davor sada ide jesti
+Davor sada gleda tv
+Tin sada programira
+Tin sada ide jesti
+Tin sada vozi auto na servis
+Ivan sada ide jesti
+Ivan sada programira
+Ivica sada igra tenis
+Ivica sada ide jesti
+Ivica sada programira
+
+Ivan:
+pojedeno = 3
+odbijeno = 0
+prazno = 3
+
+Davor:
+pojedeno = 4
+odbijeno = 1
+prazno = 1
+
+Tin:
+pojedeno = 4
+odbijeno = 0
+prazno = 2
+
+Ivica:
+pojedeno = 4
+odbijeno = 1
+prazno = 1
