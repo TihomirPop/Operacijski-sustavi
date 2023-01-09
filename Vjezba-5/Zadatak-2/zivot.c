@@ -87,6 +87,8 @@ void* tin(){
     }
 
     printJeloStat(ime, &jeloStat);
+
+    pthread_exit(NULL);
 }
 
 void* davor(){
@@ -103,6 +105,8 @@ void* davor(){
     }
 
     printJeloStat(ime, &jeloStat);
+
+    pthread_exit(NULL);
 }
 
 void* ivica(){
@@ -119,6 +123,8 @@ void* ivica(){
     }
 
     printJeloStat(ime, &jeloStat);
+
+    pthread_exit(NULL);
 }
 
 void* ivan(){
@@ -135,6 +141,8 @@ void* ivan(){
     }
 
     printJeloStat(ime, &jeloStat);
+
+    pthread_exit(NULL);
 }
 
 void* kuharica(){
@@ -145,6 +153,8 @@ void* kuharica(){
         jeloNaStol();
         odmaranje();
     }
+    
+    pthread_exit(NULL);
 }
 
 
